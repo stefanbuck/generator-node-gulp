@@ -22,7 +22,7 @@ describe('node generator', function () {
   it('creates expected files', function (done) {
     var expectedFiles = [
       'lib/mymodule.js',
-      'test/mymodule_test.js',
+      'test/module.spec.js',
       'example/simple.js',
       '.gitignore',
       '.jshintrc',
@@ -60,7 +60,7 @@ describe('node generator', function () {
   it('creates expected files', function (done) {
     var expectedFiles = [
       'lib/mymodule.js',
-      'test/mymodule_test.js',
+      'test/module.spec.js',
       'example/simple.js',
       '.gitignore',
       '.jshintrc',
@@ -99,7 +99,7 @@ describe('node generator', function () {
   it('generator with releaseModule', function (done) {
     var expectedFiles = [
       'lib/mymodule.js',
-      'test/mymodule_test.js',
+      'test/module.spec.js',
       'example/simple.js',
       '.gitignore',
       '.jshintrc',
@@ -137,7 +137,7 @@ describe('node generator', function () {
   it('generator with jscsModule', function (done) {
     var expectedFiles = [
       'lib/mymodule.js',
-      'test/mymodule_test.js',
+      'test/module.spec.js',
       'example/simple.js',
       '.gitignore',
       '.jshintrc',
@@ -243,7 +243,7 @@ describe('node generator', function () {
   it('generator with istanbul', function (done) {
     var expectedFiles = [
       'lib/mymodule.js',
-      'test/mymodule_test.js',
+      'test/module.spec.js',
       'example/simple.js',
       '.gitignore',
       '.jshintrc',
@@ -284,7 +284,7 @@ describe('node generator', function () {
   it('generator with istanbul and coveralls', function (done) {
     var expectedFiles = [
       'lib/mymodule.js',
-      'test/mymodule_test.js',
+      'test/module.spec.js',
       'example/simple.js',
       '.gitignore',
       '.jshintrc',

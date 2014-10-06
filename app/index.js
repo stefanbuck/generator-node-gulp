@@ -268,7 +268,7 @@ module.exports = yeoman.generators.Base.extend({
     this.template('lib/name.js', 'lib/' + this.slugname + '.js');
 
     this.mkdir('test');
-    this.template('test/name_test.js', 'test/' + this.slugname + '_test.js');
+    this.template('test/module.spec.js', 'test/module.spec.js');
 
     this.mkdir('example');
     this.template('example/simple.js', 'example/simple.js');
